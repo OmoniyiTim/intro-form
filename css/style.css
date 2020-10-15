@@ -60,7 +60,11 @@ form {
     background-color: white;
     border-radius: 20px;
     padding-top: 30px;
-}
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+} 
 input {
     margin-left: 40px;
     width: 390px;
@@ -86,6 +90,10 @@ button{
     color: white;
     background-color:hsl(154, 59%, 51%);
     border: 1px solid transparent;
+}
+.error{
+    color: red;
+    text-align: center;
 }
 .form p {
     font-size: 12px;
